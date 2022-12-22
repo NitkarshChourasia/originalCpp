@@ -61,3 +61,13 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using namespace std;
+
+int main(int num)
+{
+    cout << "Hello World!";
+    cout << num;
+}
+
+main(0)
