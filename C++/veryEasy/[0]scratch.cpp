@@ -2,7 +2,7 @@
 using namespace std;
 int dataTypes();
 int add(int int1, int int2);
-int whileLoop(int a)
+int whileLoop(int a);
 int switchCases(int int1);
 
 
@@ -75,7 +75,7 @@ int dataTypes()
                 cout << "Sunday";
                 break;
             default:
-                cout << "Chal, Hath behen ki lodi. Chal hath behen ki lodi";
+                cout << "Chal, Hath behen ki lodi. Chal hath behen ki lodi.\n";
                 break;
         }
         return 0;
@@ -85,7 +85,8 @@ int dataTypes()
     {
         int i = 0;
         while (i < a){
-            cout << i << endl;
+            cout << switchCases(10) << "\n";
             i ++;
         }
+        return 0;
     }
