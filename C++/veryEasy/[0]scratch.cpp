@@ -2,7 +2,7 @@
 using namespace std;
 int dataTypes();
 int add(int int1, int int2);
-
+int whileLoop(int a)
 int switchCases(int int1);
 
 
@@ -12,6 +12,7 @@ int main()
     switchCases(10);
     cout << endl;
     dataTypes();
+    whileLoop(10);
     return 0;
 }
 
@@ -78,4 +79,13 @@ int dataTypes()
                 break;
         }
         return 0;
+    }
+
+    int whileLoop(int a)
+    {
+        int i = 0;
+        while (i < a){
+            cout << i << endl;
+            i ++;
+        }
     }
