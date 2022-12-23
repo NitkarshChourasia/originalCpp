@@ -5,6 +5,7 @@ int add(int int1, int int2);
 int whileLoop(int a);
 int switchCases(int int1);
 int deadlyWhileLoop();
+int innerOuterLoop(int out1, int in1);
 
 
 
@@ -14,7 +15,8 @@ int main()
     // cout << endl;
     // dataTypes();
     // whileLoop(10);
-    deadlyWhileLoop();
+    // deadlyWhileLoop();
+    innerOuterLoop(3, 3);
     return 0;
 }
 
@@ -105,3 +107,16 @@ int dataTypes()
         }
         return 0;
     }
+
+    int innerOuterLoop(int out1, int in1)
+    {
+        for (int i = 1; i < out1 + 1; i++)
+        {
+            cout << "Outer Loop" << i << ": " << "\n";
+            for (int j = 1; j < in1 + 1; j++)
+            {
+                cout << "   Inner Loop" << j << ": " << "\n";
+            }
+        }
+        return 0;
+    } // Good stuff, I got the syntaxes and the logic nailed, for sure, I would say so.
