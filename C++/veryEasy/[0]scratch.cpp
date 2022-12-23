@@ -4,15 +4,17 @@ int dataTypes();
 int add(int int1, int int2);
 int whileLoop(int a);
 int switchCases(int int1);
+int deadlyWhileLoop();
 
 
 
 int main()
 {
-    switchCases(10);
-    cout << endl;
-    dataTypes();
-    whileLoop(10);
+    // switchCases(10);
+    // cout << endl;
+    // dataTypes();
+    // whileLoop(10);
+    deadlyWhileLoop();
     return 0;
 }
 
@@ -36,6 +38,7 @@ int dataTypes()
     cout << "Bool #1 is: " << bool1 << "\n";
     cout << "Bool #2 is: " << bool2 << "\n";
 
+    return 0; 
 }
 
     int add(int int1, int int2)
@@ -48,6 +51,7 @@ int dataTypes()
     sum = x + y;
     cout << "The sum of x and y is: " << sum << endl;
     cout << endl;
+    return 0;
     }
 
     int switchCases(int int1)
@@ -87,6 +91,17 @@ int dataTypes()
         while (i < a){
             cout << switchCases(10) << "\n";
             i ++;
+        }
+        return 0;
+    }
+
+    int deadlyWhileLoop()
+    {
+        int i = 0;
+        while (i < 1000000001)
+        {
+            cout << i << "\n";
+            i++;
         }
         return 0;
     }
