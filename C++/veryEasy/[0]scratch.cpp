@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <cmath>
 using namespace std;
 
@@ -22,7 +23,6 @@ int add(int int1, int int2)
     return int1 + int2;
 }
 
-add(2, 2)
 
 // int substract(int int1, int int2)
 // {
