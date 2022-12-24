@@ -45,4 +45,22 @@ _________
 
 */
 //Your code should go here:
+#include <iostream>
+using namespace std;
+int minToSec(int min);
 
+int main()
+{
+    minToSec(5);
+    minToSec(3);
+    minToSec(2);
+    return 0;
+}
+
+int minToSec(int min)
+{
+    cout << min*60 << "\n";
+    return 0;
+}
+
+// The program is complete.

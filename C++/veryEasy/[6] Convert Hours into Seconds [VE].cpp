@@ -45,3 +45,22 @@ _________
 */
 //Your code should go here:
 
+#include<iostream>
+using namespace std;
+
+int hrToSec(float hours);
+
+int main()
+{
+    hrToSec(2);
+    hrToSec(10);
+    hrToSec(24);
+    return 0;
+}
+
+int hrToSec(float hours){
+    cout << hours * 60 * 60 << "\n";
+    return 0;
+}
+
+// The program is complete.
