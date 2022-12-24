@@ -46,7 +46,36 @@ _________
 */
 //Your code should go here:
 
-#include
+#include <iostream>
+#include <ios>
+using std::boolalpha;
+using std::cout;
+using std::endl;
 
-Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise.
-a will always be greater than or equal to b.
+int dividesEvenly(int a, int b);
+
+int main()
+{
+    dividesEvenly(4, 2);
+    dividesEvenly(98, 7);
+    dividesEvenly(1, 2);
+    dividesEvenly(2, 3);
+    dividesEvenly(85, 4);
+    return 0;
+}
+
+int dividesEvenly(int a, int b)
+{
+    if (a % b == 0)
+    {
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else
+    {
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+}
+
+// The program is complete.
