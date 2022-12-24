@@ -21,7 +21,7 @@ _____
 N/A
 
 
-[arrays] [language_fundamentals] 
+[arrays] [language_fundamentals]
 
 
 
@@ -39,5 +39,19 @@ Access element Returns a reference to the element at position n in the vector co
 _________
 
 */
-//Your code should go here:
+// Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int valueAt(int arr[], int index);
+int main()
+{
+    valueAt([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ], 10 / 2);
+}
+// valueAt([1, 2, 3, 4, 5, 6], 10 / 2) ➞ 6
+
+// valueAt([1, 2, 3, 4, 5, 6], 8.0 / 2) ➞ 5
+
+// valueAt([1, 2, 3, 4], 6.535355314 / 2) ➞ 4
