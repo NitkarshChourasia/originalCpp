@@ -93,7 +93,9 @@ _________
 
 #include <iostream>
 #include <ios>
-using namespace std;
+using std::boolalpha;
+using std::cout;
+using std::endl;
 
 int evenTrueOddF(int int1);
 int main()
@@ -109,12 +111,12 @@ int evenTrueOddF(int int1)
 {
   if (int1 % 2 == 0)
   {
-    std::cout << std::boolalpha << true << endl;
+    cout << boolalpha << true << endl;
     return 0;
   }
   else
   {
-    std::cout << std::boolalpha << false << endl;
+    cout << boolalpha << false << endl;
     return 0;
   }
 }

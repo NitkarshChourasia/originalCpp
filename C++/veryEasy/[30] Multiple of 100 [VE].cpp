@@ -61,3 +61,23 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+#include <ios>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int divBy100(int int1);
+int main()
+{
+    divBy100(100);
+    divBy100(1000);
+    divBy100(2000);
+    divBy100(4000);
+    divBy100(10000);
+    divBy100(224);
+    divBy100(131);
+    divBy100(234);
+    divBy100(2352);
+    return 0;
+}
