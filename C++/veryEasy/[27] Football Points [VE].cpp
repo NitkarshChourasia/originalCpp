@@ -47,3 +47,23 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using namespace std;
+
+int footbPoints(int wins, int draws, int losses);
+
+int main()
+{
+    footbPoints(3, 4, 2);
+    footbPoints(5, 0, 2);
+    footbPoints(0, 0, 1);
+    return 0;
+}
+
+int footbPoints(int wins, int draws, int losses)
+{
+    cout << wins*3+draws*1+losses*0 << endl;
+    return 0;
+}
+
+// The program is complete.

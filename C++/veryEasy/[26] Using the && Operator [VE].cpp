@@ -87,7 +87,7 @@ int main()
 
 int andAnd(bool bool1, bool bool2)
 {
-  if (bool1 = true && bool2 == true)
+  if (bool1 && bool2 == true)
   {
     std::cout << std::boolalpha << true << endl;
     return 0;
@@ -98,3 +98,5 @@ int andAnd(bool bool1, bool bool2)
     return 0;
   }
 }
+
+// The program is complete.
