@@ -62,3 +62,22 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using namespace std;
+
+int add1(float num1);
+
+int main()
+{
+    add1(9);
+    add1(0);
+    add1(-3);
+}
+
+int add1(float num1)
+{
+    cout << num1 + 1 << "\n";
+    return 0;
+}
+
+// The program is complete.

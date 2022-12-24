@@ -60,4 +60,21 @@ _________
 
 */
 //Your code should go here:
+#include <iostream>
+using namespace std;
+int addition(float fNum1, float fNum2);
 
+int main()
+{
+    addition(3, 2);
+    addition(-3, -6);
+    addition(7, 3);
+}
+
+int addition(float fNum1, float fNum2)
+{
+    cout << fNum1 + fNum2 << "\n";
+    return 0;
+}
+
+// The program is complete.
