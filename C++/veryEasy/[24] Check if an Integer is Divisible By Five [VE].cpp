@@ -26,7 +26,7 @@ ___
 
 
 
-[math] [numbers] [validation] 
+[math] [numbers] [validation]
 
 
 
@@ -44,5 +44,36 @@ Perhaps you have warm memories of doing arithmetic drills in grade school. You c
 _________
 
 */
-//Your code should go here:
+// Your code should go here:
 
+#include <iostream>
+#include <ios>
+using namespace std;
+
+int divisibleBy5(int fNum1);
+
+int main()
+{
+    divisibleBy5(5);
+    divisibleBy5(6);
+    divisibleBy5(93);
+    divisibleBy5(100);
+    return 0;
+}
+
+int divisibleBy5(int fNum1)
+{
+    int defVal = 5;
+    if ((fNum1 % defVal) == 0)
+    {
+        std::cout << std::boolalpha << true << endl;
+        return 0;
+    }
+    else
+    {
+        std::cout << std::boolalpha << false << endl;
+        return 0;
+    }
+}
+
+// The program is complete.

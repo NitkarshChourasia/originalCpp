@@ -51,3 +51,23 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using namespace std;
+
+int nameString(string str1);
+
+int main()
+{
+    nameString("foo");
+    nameString("bar");
+    nameString("Nitkarsh");
+    nameString("Anmol");
+    return 0;
+}
+
+int nameString(string str1)
+{
+    string strDef = "Edabit";
+    cout << str1 + strDef << endl;
+    return 0;
+}
