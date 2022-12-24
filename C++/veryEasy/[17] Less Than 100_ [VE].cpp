@@ -38,3 +38,32 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+#include <ios>
+using namespace std;
+int sumLess100(float fNum1, float fNum2);
+
+int main()
+{
+    sumLess100(20, 30);
+    sumLess100(60, 30);
+    sumLess100(80, 30);
+    sumLess100(90, 30);
+    return 0;
+}
+
+int sumLess100(float fNum1 , float fNum2)
+{
+    if (fNum1 + fNum2 < 100)
+    {
+        std::cout << std::boolalpha << true << "\n";
+        return 0;
+    }
+    else
+    {
+        std::cout << std::boolalpha << false << "\n";
+        return 0;
+    }
+}
+
+// The program is complete.

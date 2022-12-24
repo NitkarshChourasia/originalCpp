@@ -40,3 +40,23 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using namespace std;
+int basketBallPoints(int pointer2, int pointer3);
+
+int main()
+{
+    basketBallPoints(1, 1);
+    basketBallPoints(7, 5);
+    basketBallPoints(38, 8);
+    return 0;
+}
+    
+
+int basketBallPoints(int pointer2, int pointer3)
+{
+    cout << (2*pointer2)+(3*pointer3) << endl;
+    return 0;
+}
+
+// The program is complete.
