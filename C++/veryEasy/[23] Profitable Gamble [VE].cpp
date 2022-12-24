@@ -58,11 +58,16 @@ int main()
 
 int profitGamble(float prob, float prize, float pay)
 {
-    cout << 
+    if (prob * prize > pay)
+    {
+        std::cout << std::boolalpha << true << endl;
+        return 0;
+    }
+    else
+    {
+        std::cout << std::boolalpha << false << endl;
+        return 0;
+    }
 }
-profitableGamble(0.2, 50, 9) ➞ true
 
-profitableGamble(0.9, 1, 2) ➞ false
-
-profitableGamble(0.9, 3, 2) ➞ true
-_
+// The program is complete.
