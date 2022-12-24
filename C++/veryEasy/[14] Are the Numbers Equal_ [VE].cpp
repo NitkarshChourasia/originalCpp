@@ -40,4 +40,33 @@ _________
 
 */
 //Your code should go here:
+#include<iostream>
+#include<ios>
+using namespace std;
 
+int isSameNum(float fNum1, float fNum2);
+
+int main()
+{
+    isSameNum(2,4);
+    isSameNum(2,5);
+    isSameNum(6,6);
+    isSameNum(7,7);
+    isSameNum(0,0);
+    return 0;
+}
+
+int isSameNum(float fNum1, float fNum2)
+{
+    if (fNum1 == fNum2)
+    {
+        std::cout << std::boolalpha<< true << std::endl;
+        return 0;
+    }
+    else {
+        std::cout << std::boolalpha<< false << std::endl;
+        return 0;
+    }
+}
+
+// The program is complete.

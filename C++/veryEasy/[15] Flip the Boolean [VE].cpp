@@ -58,4 +58,30 @@ _________
 
 */
 //Your code should go here:
+#include <iostream>
+#include <ios>
+using namespace std;
+int boolReverse(bool bool1);
 
+int main()
+{
+    boolReverse(true);
+    boolReverse(false);
+    return 0;
+}
+
+int boolReverse(bool bool1)
+{
+    if (bool1 == true)
+    {
+        std::cout << std::boolalpha << false << "\n";
+        return 0;
+    }
+    else
+    {
+        std::cout << std::boolalpha << true << "\n";
+        return 0;
+    }
+}
+
+// The program is complete.

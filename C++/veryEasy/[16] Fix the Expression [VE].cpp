@@ -36,3 +36,35 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+#include <ios>
+using namespace std;
+int isSeven(float fNum1);
+
+int main()
+{
+    isSeven(1);
+    isSeven(2);
+    isSeven(3);
+    isSeven(4);
+    isSeven(5);
+    isSeven(6);
+    isSeven(7);
+    return 0;
+}
+
+int isSeven(float fNum1)
+{
+    if (fNum1 == 7)
+    {
+        std::cout << std::boolalpha << true << "\n";
+        return 0;
+    }
+    else
+    {
+        std::cout << std::boolalpha << false << "\n";
+        return 0;
+    }
+}
+
+// The program is complete.
