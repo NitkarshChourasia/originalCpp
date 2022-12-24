@@ -42,3 +42,13 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+#include <ios>
+using namespace std;
+
+int profitGamble(float prob, float prize, float pay);
+
+int main()
+{
+    prof
+}
