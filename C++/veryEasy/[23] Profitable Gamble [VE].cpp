@@ -50,5 +50,19 @@ int profitGamble(float prob, float prize, float pay);
 
 int main()
 {
-    prof
+    profitGamble(0.2, 50, 9);
+    profitGamble(0.9, 1, 2);
+    profitGamble(0.9, 3, 2);
+    return 0;
 }
+
+int profitGamble(float prob, float prize, float pay)
+{
+    cout << 
+}
+profitableGamble(0.2, 50, 9) ➞ true
+
+profitableGamble(0.9, 1, 2) ➞ false
+
+profitableGamble(0.9, 3, 2) ➞ true
+_
