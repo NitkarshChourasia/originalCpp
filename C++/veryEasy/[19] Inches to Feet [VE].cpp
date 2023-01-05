@@ -50,3 +50,24 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+int inches2Feet(float inches);
+
+int main(){
+    cout << inches2Feet(324) << endl;
+    cout << inches2Feet(12) << endl;
+    cout << inches2Feet(36) << endl;
+    cout << inches2Feet(11) << endl;
+    return 0; 
+}
+
+int inches2Feet(float inches){
+    if(inches < 12){
+        return 0;
+    }
+    return inches / 12;
+}
+
+// The program is complete.

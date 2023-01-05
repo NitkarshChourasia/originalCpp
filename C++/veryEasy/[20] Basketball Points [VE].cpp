@@ -1,7 +1,8 @@
 /*
 ####  Basketball Points  ####
 
-You are counting points for a basketball game, given the amount of 3-pointers scored and 2-pointers scored, find the final points for the team and return that value (2 -pointers scored, 3-pointers scored).
+You are counting points for a basketball game, given the amount of 3-pointers scored and 2-pointers scored,
+find the final points for the team and return that value (2 -pointers scored, 3-pointers scored).
 
 
 [Examples]
@@ -40,3 +41,21 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int pointers2n3(int pointers2, int pointers3);
+
+int main(){
+    cout << pointers2n3(1, 1) << endl;
+    cout << pointers2n3(7, 5) << endl;
+    cout << pointers2n3(38, 8) << endl;
+    return 0;
+}
+
+int pointers2n3(int pointers2, int pointers3){
+    return pointers2*2 + pointers3*3;
+}
+
+// The program is complete.
