@@ -1,0 +1,1 @@
+1. VE = 14 - str input charactere some mistakes.

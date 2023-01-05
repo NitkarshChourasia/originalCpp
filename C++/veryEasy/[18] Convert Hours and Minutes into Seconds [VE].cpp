@@ -56,3 +56,23 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+#include <cmath>
+using std::cout;
+using std::endl;
+
+int hrMins2Secs(float hours, float mins);
+
+int main(){
+    cout << hrMins2Secs(1, 3) << endl;
+    cout << hrMins2Secs(2, 0) << endl;
+    cout << hrMins2Secs(0, 0) << endl;
+    cout << hrMins2Secs(0.5, 0) << endl;
+    return 0;
+}
+
+int hrMins2Secs(float hours, float mins){
+    return (hours * (pow(60, 2))) + (mins * 60);
+}
+
+// The program is complete.

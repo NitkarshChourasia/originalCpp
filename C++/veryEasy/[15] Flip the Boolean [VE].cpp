@@ -59,3 +59,33 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int reverseBool(bool rBool);
+
+int main(){
+    reverseBool(true);
+    reverseBool(false);
+    reverseBool(1);
+    reverseBool(0);
+    // reverseBool(119);
+    // reverseBool(11);
+    return 0;
+}
+
+int reverseBool(bool rBool){
+    if (rBool == true){
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    return 0;
+}
+
+// The program is complete.

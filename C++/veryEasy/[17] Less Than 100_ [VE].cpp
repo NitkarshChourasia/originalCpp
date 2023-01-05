@@ -38,3 +38,34 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int lessThan100(float fnum1, float fnum2);
+
+int main(){
+    lessThan100(22, 22);
+    lessThan100(42, 42);
+    lessThan100(22, 42);
+    lessThan100(22, 62);
+    lessThan100(100, 0);
+    lessThan100(10, 91);
+    lessThan100(100, 1);
+    return 0;
+}
+
+int lessThan100(float fnum1, float fnum2){
+    if ((fnum1 + fnum2) < 100){
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}
+
+// The program is complete.

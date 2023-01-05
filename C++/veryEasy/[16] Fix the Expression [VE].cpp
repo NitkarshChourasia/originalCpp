@@ -37,3 +37,32 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int isSeven(float x);
+
+int main(){
+    isSeven(10);
+    isSeven(71);
+    isSeven(0);
+    isSeven(31.2);
+    isSeven(7);
+    return 0;
+}
+
+int isSeven(float x){
+    if (x == 7){
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}
+
+// The program is complete.
