@@ -26,7 +26,7 @@ ___
 
 
 
-[control_flow] [logic] 
+[control_flow] [logic]
 
 
 
@@ -39,5 +39,28 @@ Is the C++ operator for the Boolean operation NOT.
 _________
 
 */
-//Your code should go here:
+// Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int flip(int x);
+
+int main()
+{
+    cout << flip(1) << endl;
+    cout << flip(13) << endl;
+    cout << flip(true) << endl;
+    cout << flip(false) << endl;
+    cout << flip(0) << endl;
+    return 0;
+}
+
+int flip(int x)
+{
+    // return x ^ 1; // XOR operator, Should learn about it.
+    return !x;
+}
+
+// The program is complete.

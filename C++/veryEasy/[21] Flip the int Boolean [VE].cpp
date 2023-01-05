@@ -1,7 +1,8 @@
 /*
 ####  Flip the int Boolean  ####
 
-An int boolean is same as a normal boolean, just 1 = true and 0 = false. Make a function that returns an int boolean opposite of an int boolean given (flip the int boolean).
+An int boolean is same as a normal boolean, just 1 = true and 0 = false. 
+Make a function that returns an int boolean opposite of an int boolean given (flip the int boolean).
 
 
 [Examples]
@@ -44,3 +45,26 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int flipIntBool(int b);
+
+int main()
+{
+    cout << flipIntBool(1) << endl;
+    cout << flipIntBool(true) << endl;
+    cout << flipIntBool(13) << endl;
+    cout << flipIntBool(0) << endl;
+    cout << flipIntBool(false) << endl;
+    return 0;
+}
+
+int flipIntBool(int b){
+
+    return !b;
+}
+
+// This program is complete.
