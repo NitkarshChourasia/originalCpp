@@ -45,3 +45,23 @@ _________
 */
 //Your code should go here:
 
+#include<iostream>
+// #include<math>
+using std::cout;
+using std::endl;
+
+int hours2Secs(float hours);
+
+int main(){
+    hours2Secs(2);
+    hours2Secs(10);
+    hours2Secs(24);
+    return 0;
+}
+
+int hours2Secs(float hours){
+    cout << (hours * 60 * 60) << endl;
+    return 0;
+}
+
+// The program is complete.

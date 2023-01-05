@@ -46,3 +46,24 @@ _________
 */
 //Your code should go here:
 
+#include<iostream>
+using std::cout;
+using std::endl;
+
+int convertMin2Sec(float mins);
+
+int main(){
+    convertMin2Sec(5);
+    convertMin2Sec(3);
+    convertMin2Sec(2);
+    convertMin2Sec(2.5);
+    convertMin2Sec(1.5);
+    return 0;
+}
+
+int convertMin2Sec(float mins){
+    cout << mins*60 << endl;
+    return 0;
+}
+
+// The program is complete.

@@ -56,3 +56,34 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int nextEdge(float side1, float side2); 
+
+int main(){
+    nextEdge(8, 10);
+    nextEdge(5, 7);
+    nextEdge(9, 2);
+    nextEdge(-1, -2);
+    return 0;
+}
+
+int nextEdge(float side1, float side2){
+    if (side1 >= 0 && side2 >= 0){
+        cout << (side1 + side2 - 1) << endl;
+        return 0;
+    }
+    else{
+        cout << "Length of sides cannot be negative." << endl;
+        return 0;
+    }
+}
+
+// nextEdge(8, 10) ➞ 17
+
+// nextEdge(5, 7) ➞ 11
+
+// nextEdge(9, 2) ➞ 10
+// _

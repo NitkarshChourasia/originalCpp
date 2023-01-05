@@ -46,3 +46,22 @@ _________
 */
 //Your code should go here:
 
+#include<iostream>
+using std::cout;
+using std::endl;
+
+int circuitPower(float voltage, float current);
+
+int main(){
+    circuitPower(230, 10);
+    circuitPower(110, 3);
+    circuitPower(480, 20);
+    return 0;
+}
+
+int circuitPower(float voltage, float current){
+    cout << voltage * current << endl;
+    return 0;
+}
+
+// The program is complete.

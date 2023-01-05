@@ -62,3 +62,24 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int triArea(float base, float height);
+
+int main(){
+
+    triArea(3, 2);
+    triArea(7, 4);
+    triArea(10, 10);
+    return 0;
+
+}
+
+int triArea(float base, float height){
+    cout << (base * height)/2 << endl;
+    return 0;
+}
+
+// The program is complete.
