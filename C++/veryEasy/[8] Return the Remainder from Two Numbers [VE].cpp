@@ -1,7 +1,9 @@
 /*
 ####  Return the Remainder from Two Numbers  ####
 
-There is a single operator in C++, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+There is a single operator in C++, capable of providing the remainder of a division operation.
+Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder,
+possibly zero. Return that value.
 
 
 [Examples]
@@ -59,3 +61,31 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int modRemainder(int x, int y);
+
+int main(){
+    modRemainder(1, 3);
+    modRemainder(3, 4);
+    modRemainder(-9, -45);
+    modRemainder(5, 5);
+    modRemainder(0, 4);
+    modRemainder(234, 0);
+    return 0;
+}
+
+int modRemainder(int x, int y){
+    if (y == 0){
+        cout << "Divider y cannot be zero." << endl;;
+        return 0;
+    }
+    else{
+        cout << x % y << endl;
+        return 0;
+    }
+}
+
+// The program is complete.

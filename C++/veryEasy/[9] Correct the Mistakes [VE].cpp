@@ -1,7 +1,8 @@
 /*
 ####  Correct the Mistakes  ####
 
-Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+Fix the code in the code tab to pass this challenge (only syntax errors).
+Look at the examples below to get an idea of what the function should do.
 
 
 [Examples]
@@ -50,3 +51,24 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+#include <cmath>
+using std::cout;
+using std::endl;
+
+int squared(float x);
+
+int main(){
+    squared(2);
+    squared(3);
+    squared(5);
+    squared(9);
+    return 0;
+}
+
+int squared(float x){
+    cout << pow(x, 2) << endl;
+    return 0;
+}
+
+// The program is complete.

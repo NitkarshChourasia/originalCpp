@@ -66,6 +66,7 @@ int main(){
     nextEdge(8, 10);
     nextEdge(5, 7);
     nextEdge(9, 2);
+    nextEdge(13, -1);
     nextEdge(-1, -2);
     return 0;
 }
@@ -81,9 +82,4 @@ int nextEdge(float side1, float side2){
     }
 }
 
-// nextEdge(8, 10) ➞ 17
-
-// nextEdge(5, 7) ➞ 11
-
-// nextEdge(9, 2) ➞ 10
-// _
+// The program is complete.
