@@ -46,3 +46,33 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int isEqual(int x, int y);
+
+int main(){
+    isEqual(9 , 9);
+    isEqual(10, 11);
+    isEqual(30, 21);
+    isEqual(1333, 21);
+    isEqual(13, 31);
+    isEqual(10, 10);
+    return 0;
+}
+
+int isEqual(int x, int y){
+    if (x == y){
+        cout << boolalpha <<  true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha <<  false << endl;
+        return 0;
+    }
+    return 0;
+}
+
+// The program is complete.

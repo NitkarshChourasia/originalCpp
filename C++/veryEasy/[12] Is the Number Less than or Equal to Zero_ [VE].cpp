@@ -1,7 +1,8 @@
 /*
 ####  Is the Number Less than or Equal to Zero?  ####
 
-Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+Create a function that takes a number as its only argument and returns true if it's less
+than or equal to zero, otherwise return false.
 
 
 [Examples]
@@ -51,3 +52,32 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int less0EqualT(int x);
+
+int main(){
+    less0EqualT(9);
+    less0EqualT(4);
+    less0EqualT(989);
+    less0EqualT(0);
+    less0EqualT(-12);
+    return 0;
+}
+
+int less0EqualT(int x){
+    if (x <= 0){
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}
+
+// The program is complete.

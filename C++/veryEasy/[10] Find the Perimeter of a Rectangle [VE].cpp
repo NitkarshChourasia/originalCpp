@@ -51,3 +51,36 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int rectPerimeter(float width, float length);
+
+int main(){
+    rectPerimeter(6, 7);
+    rectPerimeter(20, 10);
+    rectPerimeter(2, 9);
+    rectPerimeter(0, 21);
+    rectPerimeter(-1, 100);
+    return 0;
+}
+
+int rectPerimeter (float width, float length){
+    if (width > 0 && length > 0){
+        cout << ((width * 2) + (length * 2)) << endl;
+        return 0;
+    }
+    else if (width == 0 || length == 0){
+        cout << "If a triangle exists, it sides cannot be zero but close to zero." << endl;
+        return 0;
+    }
+    else if (width < 0 || length < 0){
+        cout << "Measurements of a physical object cannot be negative." << endl;
+        return 0;
+    }
+    return 0;
+    
+}
+
+// The program is complete.
