@@ -1,14 +1,16 @@
 /*
 ####  The Farm Problem  ####
 
-In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
+In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals.
+The farmer breeds three species:
 ___
 *) chickens = 2 legs
 *) cows = 4 legs
 *) pigs = 4 legs
 ___
 
-The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
+The farmer has counted his animals and he gives you a subtotal for each species. You have to implement 
+a function that returns the total number of legs of all the animals.
 
 
 [Examples]
@@ -88,3 +90,22 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+
+int animalsTotalLegs(int chicken, int cows, int pigs);
+
+int main(){
+    animalsTotalLegs(2, 3, 5);
+    animalsTotalLegs(1, 2, 3);
+    animalsTotalLegs(5, 2, 8);
+    return 0;
+}
+
+int animalsTotalLegs(int chicken , int cows, int pigs){
+    cout << ((chicken * 2) + (cows * 4) + (pigs * 4)) << endl;;
+    return 0;
+}
+
+// The program is complete.

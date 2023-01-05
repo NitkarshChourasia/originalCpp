@@ -41,3 +41,62 @@ _________
 */
 //Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::boolalpha;
+
+int equalMethod(float num1, float num2);
+int substractMethod(float num1, float num2);
+int XORMethod(int num1, int num2);
+
+int main(){
+    equalMehod(9, 9);
+    equalMehod(0, 9);
+    equalMehod(9, "9");
+
+    substractMethod(10, 10);
+    substractMethod(19, 10);
+    substractMethod(10, "10");
+
+    XORMethod(31,31);
+    XORMethod(31,3);
+    XORMethod(31,"31");
+    return 0;
+}
+
+int equalMethod(float num1, float num2){
+    if (num1 == num2){
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}
+int substractMethod(float num1, float num2){
+    if (!(num1 - num2)){
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}
+
+int XORMethod(int num1, int num2){
+    if (num1 ^ num2){
+        cout << boolalpha << true << endl;
+        return 0;
+    }
+    else{
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}
+
