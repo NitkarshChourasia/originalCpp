@@ -1,8 +1,7 @@
 /*
 ####  Minimal I: If Boolean Then Boolean  ####
 
-In this series we're going to see common redundancies and superfluities that make our code unnecessarily complicated and less readable,
-and we're going to learn how to avoid them.
+In this series we're going to see common redundancies and superfluities that make our code unnecessarily complicated and less readable, and we're going to learn how to avoid them.
 In line with the spirit of the series, we can summarize the general rules of minimalist code in two simple principles:
 ___
 *) Keep your code clean and readable.
@@ -91,34 +90,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-#include <ios>
-using std::boolalpha;
-using std::cout;
-using std::endl;
-
-int evenTrueOddF(int int1);
-int main()
-{
-  evenTrueOddF(10);
-  evenTrueOddF(7);
-  evenTrueOddF(21);
-  evenTrueOddF(222);
-  return 0;
-}
-
-int evenTrueOddF(int int1)
-{
-  if (int1 % 2 == 0)
-  {
-    cout << boolalpha << true << endl;
-    return 0;
-  }
-  else
-  {
-    cout << boolalpha << false << endl;
-    return 0;
-  }
-}
-
-// The program is complete.

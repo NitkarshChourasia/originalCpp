@@ -51,31 +51,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-#include <ios>
-using namespace std;
-int lessEither0(float fNum1);
-
-int main()
-{
-    lessEither0(0);
-    lessEither0(1);
-    lessEither0(-2);
-    lessEither0(-11);
-    return 0;
-}
-
-int lessEither0(float fNum1)
-{
-    if (fNum1<=0)
-    {
-    std::cout << std::boolalpha << true << "\n";
-        return 0;
-    }
-    else{
-        std::cout << std::boolalpha << false << "\n";
-        return 0;
-    }
-}
-
-// The program is complete.

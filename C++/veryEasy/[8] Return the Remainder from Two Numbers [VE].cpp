@@ -59,23 +59,3 @@ _________
 */
 //Your code should go here:
 
-#include<iostream>
-using namespace std;
-int remainder(int int1, int int2);
-
-int main()
-{
-    remainder(1, 3);
-    remainder(3, 4);
-    remainder(-9, 45);
-    remainder(5, 5);
-    return 0;
-}
-
-int remainder(int int1, int int2)
-{
-    cout << int1 % int2 << "\n";
-    return 0;
-}
-
-// The program is complete.

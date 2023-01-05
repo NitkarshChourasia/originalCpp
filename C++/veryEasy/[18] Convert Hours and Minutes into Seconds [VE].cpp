@@ -56,26 +56,3 @@ _________
 */
 //Your code should go here:
 
-#include <ios>
-#include <iostream>
-#include <cmath>
-using namespace std;
-
-int convertToSeconds(float hours, float minutes);
-
-int main()
-{
-    convertToSeconds(1, 3);
-    convertToSeconds(0, 2);
-    convertToSeconds(2, 0);
-    convertToSeconds(0, 0);
-    return 0;
-}
-
-int convertToSeconds(float hours, float minutes)
-{
-    cout << (hours * pow(60, 2)) + (minutes * 60) << endl;
-    return 0;
-}
-
-// The program is complete.

@@ -54,34 +54,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-#include <ios>
-using std::cout;
-using std::boolalpha;
-using std::endl;
-
-int boolToString(bool bool1);
-
-int main()
-{
-    boolToString(true);
-    boolToString(false);
-    return 0;
-}
-
-int boolToString(bool bool1)
-{
-    if (bool1 == true)
-    {
-        cout << "True" << endl;
-        return 0;
-    }
-    else
-    {
-        cout << "False" << endl;
-        return 0;
-    }
-}
-// Did the bool return string in capital, so that it can be known that the return type is string type.
-
-// The program is complete.

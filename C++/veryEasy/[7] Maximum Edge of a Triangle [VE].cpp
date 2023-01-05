@@ -56,22 +56,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-int maxThirdEdge(float side1, float side2);
-
-int main()
-{
-    maxThirdEdge(8, 10);
-    maxThirdEdge(5, 7);
-    maxThirdEdge(9, 2);
-    return 0;
-}
-
-int maxThirdEdge(float side1, float side2)
-{
-    cout << (side1 + side2)-1 << "\n";
-    return 0;
-}
-
-// The program is complete.

@@ -51,23 +51,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-
-int findPerimeter(float length, float width);
-
-int main()
-{
-    findPerimeter(6, 7);
-    findPerimeter(20, 10);
-    findPerimeter(2, 9);
-    return 0;
-}
-
-int findPerimeter(float length, float width)
-{
-    cout << (2*length)+(2*width) << endl;
-    return 0;
-}
-
-// The program is complete.

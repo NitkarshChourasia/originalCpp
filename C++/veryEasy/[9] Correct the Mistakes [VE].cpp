@@ -50,24 +50,3 @@ _________
 */
 //Your code should go here:
 
-#include<iostream>
-#include<cmath>
-using namespace std;
-
-int squared(float fNum1);
-
-int main()
-{
-    squared(5);
-    squared(100);
-    squared(9);
-    return 0;
-}
-
-int squared(float fNum1)
-{
-    cout << pow(fNum1, 2) << "\n";
-    return 0;
-}
-
-// The program is complete.

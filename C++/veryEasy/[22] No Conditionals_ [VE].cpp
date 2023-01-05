@@ -41,29 +41,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-int flip(int int1);
-
-int main()
-{
-    flip(1);
-    flip(0);
-    flip(1001);
-    flip(31);
-    return 0;
-}
-
-int flip(int int1)
-{
-    if (int1 == true)
-    {
-        cout << false << endl;
-        return 0;
-    }
-    else
-    {
-        cout << true << endl;
-        return 0;
-    }
-}

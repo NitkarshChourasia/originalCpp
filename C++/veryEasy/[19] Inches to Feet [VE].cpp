@@ -50,31 +50,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-
-int inchesToFeet(int inches);
-
-int main()
-{
-    inchesToFeet(324);
-    inchesToFeet(12);
-    inchesToFeet(36);
-    return 0;
-}
-
-int inchesToFeet(int inches)
-{
-    if (inches < 12)
-    {
-        cout << 0 << endl;
-        return 0;
-    }
-    else
-    {
-        cout << inches/12 << endl;
-        return 0;
-    }
-}
-
-// The program is complete..

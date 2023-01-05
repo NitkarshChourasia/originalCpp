@@ -46,33 +46,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-#include <ios>
-// using namespace std;
-
-int isEqual(float fNum1, float fNum2);
-
-int main()
-{
-    isEqual(10, 10);
-    isEqual(20, 30);
-    isEqual(50, 60);
-    isEqual(50, 50);
-    isEqual(101, 102);
-    return 0;
-}
-
-int isEqual(float fNum1, float fNum2)
-{
-    if (fNum1 == fNum2)
-    {
-        std::cout << std::boolalpha << true << "\n";
-        return 0;
-    }
-    else {
-        std::cout << std::boolalpha << false << "\n";
-    }
-    return 0;
-}
-
-// The program is complete.

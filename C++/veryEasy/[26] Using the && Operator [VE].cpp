@@ -70,33 +70,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-#include <ios>
-using namespace std;
-
-int andAnd(bool bool1, bool bool2);
-
-int main()
-{
-  andAnd(true, true);
-  andAnd(false, false);
-  andAnd(false, true);
-  andAnd(true, false);
-  return 0;
-}
-
-int andAnd(bool bool1, bool bool2)
-{
-  if (bool1 && bool2 == true)
-  {
-    std::cout << std::boolalpha << true << endl;
-    return 0;
-  }
-  else
-  {
-    std::cout << std::boolalpha << false << endl;
-    return 0;
-  }
-}
-
-// The program is complete.

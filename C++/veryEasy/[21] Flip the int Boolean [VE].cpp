@@ -44,33 +44,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-
-int flipIntBool(bool bool1);
-
-int main()
-{
-    flipIntBool(1);
-    flipIntBool(0);
-    flipIntBool(12);
-    flipIntBool(true);
-    flipIntBool(false);
-    return 0;
-}
-
-int flipIntBool(bool bool1)
-{
-    if (bool1 == true)
-    {
-        cout << false << endl;
-        return 0;
-    }
-    else
-    {
-        cout << true << endl;
-        return 0;
-    }
-}
-
-// The program is complete.

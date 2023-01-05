@@ -62,21 +62,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-int triArea(float height, float base);
-
-int main()
-{
-    triArea(3,2);
-    triArea(7,4);
-    triArea(10,10);
-    return 0;
-}
-
-int triArea(float height, float base){
-    cout << (height * base)/2 << "\n";
-    return 0;
-}
-
-// The program is complete.

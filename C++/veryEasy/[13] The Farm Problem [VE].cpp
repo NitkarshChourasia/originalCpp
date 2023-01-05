@@ -88,23 +88,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-using namespace std;
-
-int legsAnimals(int chicken, int cows, int pigs);
-
-int main()
-{
-    legsAnimals(2, 3, 5);
-    legsAnimals(1, 2, 3);
-    legsAnimals(5, 2, 8);
-    return 0;
-}
-
-int legsAnimals(int chicken, int cows, int pigs)
-{
-    cout << (chicken * 2) + (cows * 4) + (pigs * 4) << "\n";
-    return 0;
-}
-
-// The program is complete.

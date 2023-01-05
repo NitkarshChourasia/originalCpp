@@ -42,32 +42,3 @@ _________
 */
 //Your code should go here:
 
-#include <iostream>
-#include <ios>
-using namespace std;
-
-int profitGamble(float prob, float prize, float pay);
-
-int main()
-{
-    profitGamble(0.2, 50, 9);
-    profitGamble(0.9, 1, 2);
-    profitGamble(0.9, 3, 2);
-    return 0;
-}
-
-int profitGamble(float prob, float prize, float pay)
-{
-    if (prob * prize > pay)
-    {
-        std::cout << std::boolalpha << true << endl;
-        return 0;
-    }
-    else
-    {
-        std::cout << std::boolalpha << false << endl;
-        return 0;
-    }
-}
-
-// The program is complete.
