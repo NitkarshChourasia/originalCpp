@@ -26,7 +26,7 @@ ___
 
 
 
-[math] [numbers] [validation] 
+[math] [numbers] [validation]
 
 
 
@@ -44,5 +44,39 @@ Perhaps you have warm memories of doing arithmetic drills in grade school. You c
 _________
 
 */
-//Your code should go here:
+// Your code should go here:
 
+#include <iostream>
+using std::boolalpha;
+using std::cout;
+using std::endl;
+
+int evenDivBy5(int x);
+
+int main()
+{
+    evenDivBy5(5);
+    evenDivBy5(-55);
+    evenDivBy5(37);
+    evenDivBy5(132);
+    evenDivBy5(1);
+    evenDivBy5(0);
+    evenDivBy5(0);
+    return 0;
+}
+
+int evenDivBy5(int x)
+{
+    if (x % 5 == 0)
+    {
+        cout << boolalpha << true << endl;
+        return 0;
+        ;
+    }
+    else
+    {
+        cout << boolalpha << false << endl;
+        return 0;
+    }
+    return 0;
+}

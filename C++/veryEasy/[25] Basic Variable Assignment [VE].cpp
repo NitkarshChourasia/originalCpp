@@ -1,17 +1,18 @@
 /*
 ####  Basic Variable Assignment  ####
 
-A student learning C++ was trying to make a function. His code should concatenate a passed string name with string "Edabit" and store it in a variable called result. He needs your help to fix this code.
+A student learning C++ was trying to make a function. His code should concatenate a passed string name
+with string "Sage" and store it in a variable called result. He needs your help to fix this code.
 
 
 [Examples]
 
 ___
-nameString("Mubashir") ➞ "MubashirEdabit"
+nameString("Nitkarsh") ➞ "NitkarshSage"
 
-nameString("Matt") ➞ "MattEdabit"
+nameString("Matt") ➞ "MattSage"
 
-nameString("C++") ➞ "C++Edabit"
+nameString("C++") ➞ "C++Sage"
 _____
 
 
@@ -26,7 +27,7 @@ ___
 
 
 
-[bugs] [functional_programming] [language_fundamentals] [strings] 
+[bugs] [functional_programming] [language_fundamentals] [strings]
 
 
 
@@ -49,5 +50,24 @@ Variables are containers for storing data values.
 _________
 
 */
-//Your code should go here:
+// Your code should go here:
 
+#include <iostream>
+using std::cout;
+using std::endl;
+using std::string;
+
+string nameString(string name);
+
+int main()
+{
+    cout << nameString("Nitkarsh") << endl;
+    cout << nameString("Matt") << endl;
+    cout << nameString("C++") << endl;
+}
+
+string nameString(string name)
+{
+    string result = name + "Sage";
+    return result;
+}

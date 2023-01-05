@@ -51,19 +51,15 @@ bool profitableGamble(double prob, double prize, double pay);
 
 int main()
 {
-    cout << profitableGamble(0.2, 50, 9) << endl;
-    cout << profitableGamble(0.9, 1, 2) << endl;
-    cout << profitableGamble(0.9, 3, 2) << endl;
+    cout << boolalpha << profitableGamble(0.2, 50, 9) << endl;
+    cout << boolalpha << profitableGamble(0.9, 1, 2) << endl;
+    cout << boolalpha << profitableGamble(0.9, 3, 2) << endl;
     return 0;
 }
 
 bool profitableGamble(double prob, double prize, double pay)
 {
-    return << boolalpha << prob * prize > pay;
+    return prob * prize > pay;
 }
-// profitableGamble(0.2, 50, 9) ➞ true
-//
-// profitableGamble(0.9, 1, 2) ➞ false
-//
-// profitableGamble(0.9, 3, 2) ➞ true
-// _
+
+// The program is complete.

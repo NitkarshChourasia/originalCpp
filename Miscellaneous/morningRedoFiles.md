@@ -1,1 +1,1 @@
-1. 
+1. 24 - x % 5 == 0, in which x == 0, so is X evenly divisible by 5? 
